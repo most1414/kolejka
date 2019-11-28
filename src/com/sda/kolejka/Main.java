@@ -5,7 +5,8 @@ import java.util.Queue;
 public class Main {
     public static void main(String[] args) {
 
-       KolejkaLista kolejka = new KolejkaLista();
+       //KolejkaLista kolejka = new KolejkaLista();
+        KolejkaObj kolejka = new KolejkaObj();
 
        kolejka.add(8);
        kolejka.add(10);
