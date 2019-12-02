@@ -26,7 +26,7 @@ public class Kolejka {
         Element indexElement = pierwszy;
 
         while (indexElement != null) {
-            System.out.println(indexElement.getWartosc());
+            System.out.print(indexElement.getWartosc());
             indexElement = indexElement.getNastepny();
         }
         System.out.println();
@@ -74,6 +74,7 @@ public class Kolejka {
             return false;
 
         }
+
     }
 
 
